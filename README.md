@@ -5,7 +5,7 @@ Autor: Miguel Álvarez · noviembre de 2026
 
 > Una base para el procesamiento asistido de muestras de biodiversidad neotropical (Estación de Biodiversidad Tiputini).
 
-**Notebook en Google Colab (ejecutado):** _[pegar aquí el link de Colab]_
+**Notebook en Google Colab (ejecutado):** https://colab.research.google.com/drive/1imKk9roH_bQaWWMEBgDfQpOYXfB3sQic?usp=sharing
 
 ## Problema
 Separar por **orden** taxonómico los insectos capturados en trampas Malaise es el primer paso, manual y lento, de un inventario de biodiversidad. Este proyecto evalúa si una red preentrenada, sin reentrenar, más un clasificador clásico permiten automatizar ese paso, y compara con rigor estadístico un clasificador lineal y uno no lineal.
