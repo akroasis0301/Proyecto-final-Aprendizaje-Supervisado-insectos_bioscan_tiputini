@@ -1,0 +1,10 @@
+# Datos y artefactos pesados: no van al repositorio
+*.hdf5
+*.npz
+data/
+datasets/
+# Entorno y temporales
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

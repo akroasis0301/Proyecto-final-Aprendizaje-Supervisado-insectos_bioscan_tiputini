@@ -1,0 +1,25 @@
+[project]
+name = "insectos-bioscan-tiputini"
+version = "1.0.0"
+description = "Clasificación del orden de insectos de trampas Malaise (BIOSCAN-1M) con transfer learning · Proyecto final de Aprendizaje Supervisado, MIA USFQ"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "torch>=2.3",
+    "torchvision>=0.18",
+    "h5py>=3.10",
+    "huggingface_hub>=0.23",
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scikit-learn>=1.5",
+    "scipy>=1.12",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "pillow>=10.0",
+    "ipykernel>=6.29",
+    "jupyter>=1.0",
+]
+
+[tool.uv]
+# Solo dependencias: el repositorio es un notebook, no un paquete instalable
+package = false
